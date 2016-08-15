@@ -1549,7 +1549,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ab81dd;
+  background: #7a05ba;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2590,4 +2590,15 @@ img {
 }
 .post-body h4 {
   border-left: 5px solid #fff;
+}
+body {
+  background-attachment: fixed;
+  background-clip: border-box;
+  background-color: #666;
+  background-origin: padding-box;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-image: url("http://7lrwe3.com1.z0.glb.clouddn.com/lab/project/mcode/res/bgpic/bg_14.jpg");
 }
