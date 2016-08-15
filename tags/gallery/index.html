@@ -84,23 +84,15 @@
 
 
 
-<meta name="description" content="以后再说吧！！！">
+<meta name="description" content="Cease to struggle and you cease to live !">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Photos">
-<meta property="og:url" content="http://memo.zicii.com/photos/index.html">
+<meta property="og:title" content="Hello Toomiy !">
+<meta property="og:url" content="http://memo.zicii.com/tags/gallery/index.html">
 <meta property="og:site_name" content="Hello Toomiy !">
-<meta property="og:description" content="以后再说吧！！！">
-<meta property="og:image" content="http://zerone.qiniudn.com/wallpaper/Wally/1151.jpg">
-<meta property="og:image" content="http://zerone.qiniudn.com/wallpaper/Wally/57736.jpg">
-<meta property="og:image" content="http://zerone.qiniudn.com/wallpaper/Wally/3513.jpg">
-<meta property="og:image" content="http://zerone.qiniudn.com/wallpaper/Wally/7318.jpg">
-<meta property="og:image" content="http://zerone.qiniudn.com/wallpaper/Wally/16047.jpg">
-<meta property="og:image" content="http://zerone.qiniudn.com/wallpaper/Wally/184470.jpg">
-<meta property="og:updated_time" content="2016-06-18T08:39:50.941Z">
+<meta property="og:description" content="Cease to struggle and you cease to live !">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Photos">
-<meta name="twitter:description" content="以后再说吧！！！">
-<meta name="twitter:image" content="http://zerone.qiniudn.com/wallpaper/Wally/1151.jpg">
+<meta name="twitter:title" content="Hello Toomiy !">
+<meta name="twitter:description" content="Cease to struggle and you cease to live !">
 
 
 
@@ -121,15 +113,9 @@
 
 
 
-  <link rel="canonical" href="http://memo.zicii.com/photos/"/>
+  <link rel="canonical" href="http://memo.zicii.com/tags/gallery/"/>
 
-  <title>
-  
-
-  
-    Photos | Hello Toomiy !
-  
-</title>
+  <title> 标签: gallery | Hello Toomiy ! </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -238,54 +224,46 @@
           <div id="content" class="content">
             
 
-  <div id="posts" class="posts-expand">
-    
-    
-	
-		My Photos
-		<link type="text/css" href="/fancybox/jquery.fancybox.css" rel="stylesheet">
-		<div class="instagram">
-			<section class="archives album">
-				<ul class="img-box-ul"></ul>
-			</section>
-		</div>  
-		
-		<h3 id="以后再说吧！！！"><a href="#以后再说吧！！！" class="headerlink" title="以后再说吧！！！"></a>以后再说吧！！！</h3><p><img src="http://zerone.qiniudn.com/wallpaper/Wally/1151.jpg" alt="图片"><img src="http://zerone.qiniudn.com/wallpaper/Wally/57736.jpg" alt="图片"><img src="http://zerone.qiniudn.com/wallpaper/Wally/3513.jpg" alt="图片"><img src="http://zerone.qiniudn.com/wallpaper/Wally/7318.jpg" alt="图片"><img src="http://zerone.qiniudn.com/wallpaper/Wally/16047.jpg" alt="图片"><img src="http://zerone.qiniudn.com/wallpaper/Wally/184470.jpg" alt="图片"></p>
+  <div id="posts" class="posts-collapse">
+    <div class="collection-title">
+      <h2 >
+        gallery
+        <small>标签</small>
+      </h2>
+    </div>
 
-		
-		<script>
-		$(document).ready(function () {
-			init: function () {
-				var that = this;
-				$.getJSON("/photos/data.json", function (data) {
+    
+      
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h1 class="post-title">
         
+            <a class="post-title-link" href="/2016/08/15/Test/" itemprop="url">
+              
+                <span itemprop="name">Test</span>
+              
+            </a>
+        
+      </h1>
 
-					that.render(that.page, data);
-					that.scroll(data);
-				});
-			},
-			render: function (page, data) {
-				var begin = (page - 1) * this.offset;
-				var end = page * this.offset;
-				if (begin >= data.length) return;
-				var html, li = "";
-				for (var i = begin; i < end && i < data.length; i++) {
-					li += '<li><div class="img-box">' + '<a class="img-bg" rel="example_group" href="http://zerone.qiniudn.com/wallpaper/Wally/' + data[i] + '"></a>' + '<img lazy-src="http://zerone.qiniudn.com/wallpaper/Wally/' + data[i] + '" />' + '</li>';
-				}
-				$(".img-box-ul").append(li);
-				$(".img-box-ul").lazyload();
-				$("a[rel=example_group]").fancybox();
-			},
-		});
-		</script>
-		
-		
-		
-		
-		
-		
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2016-08-15T15:55:12+08:00"
+              content="Aug 15 2016" >
+          08-15
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
     
   </div>
+
+  
 
 
           </div>
@@ -293,10 +271,6 @@
 
 
           
-  <div class="comments" id="comments">
-    
-  </div>
-
 
         </div>
         
