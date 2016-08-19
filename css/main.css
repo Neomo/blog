@@ -910,7 +910,7 @@ pre .javascript .function {
   line-height: 36px;
   font-size: 20px;
   font-weight: normal;
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Lobster Two', 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 .site-subtitle {
   margin-top: 10px;
@@ -1549,7 +1549,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ee82ed;
+  background: #adfffe;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2601,7 +2601,4 @@ body {
   background-size: cover;
   width: 100%;
   background-image: url("http://7lrwe3.com1.z0.glb.clouddn.com/lab/project/mcode/res/bgpic/bg_14.jpg");
-}
-.site-title {
-  font-family: 'Lobster Two', 'Monda', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
