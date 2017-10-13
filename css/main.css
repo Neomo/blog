@@ -1549,7 +1549,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #87af7a;
+  background: #4b6ffb;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2681,23 +2681,34 @@ body {
   padding: 10PX 40px;
 }
 div.post-body p a {
-  color: #999;
+  color: #333;
   border-radius: 3px;
+  background: #fff;
   border-color: #000;
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
   transition: all 0.2s linear;
-  padding: 0px 8px;
+  padding: 0px 18px 0px 8px;
   display: inline-block;
+  margin-right: 3px;
   margin-bottom: 2px;
   line-height: 28px;
+  background-image: url("http://p1.bpimg.com/567571/101f85efbd4bafa0.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  border-bottom: 0px solid #999;
+*
 }
+*
 div.post-body p a:hover {
   color: #fff;
   background: #ff4900;
   border: 1px solid #ff4900;
   text-shadow: 0 1px 0 rgba(0,0,0,0.09);
   text-shadow: 0 1px 0 rgba(0,0,0,0.22);
+  background-image: url("http://p1.bpimg.com/567571/101f85efbd4bafa0.png");
+  background-repeat: no-repeat;
+  background-position: right;
 }
 #ds-thread #ds-reset ul.ds-comments-tabs li.ds-tab a.ds-current {
   border: 0px;
